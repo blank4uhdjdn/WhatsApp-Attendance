@@ -41,6 +41,12 @@ app.use('/api',authroutes)
 app.use('/api',otpGenerate)
 app.use('/api',addEventRoute)
  
+app.use(express.static(path.join(__dirname,"../frontend/dist")))
+
+app.get("*",(req,res)=>{
+    res.sendFile(path.join(__dirname,"frontend","dist","index.html"))
+
+})
 
 
 
