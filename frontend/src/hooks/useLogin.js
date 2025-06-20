@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { useAuthContext } from '../cotext/authContext'
+import { useAuthContext } from '../cotext/AuthContext'
 import { useNavigate } from 'react-router-dom'
 
 

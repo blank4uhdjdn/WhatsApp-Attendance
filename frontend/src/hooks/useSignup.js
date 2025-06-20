@@ -1,6 +1,6 @@
 import { toast } from "react-hot-toast";
 import { useState } from "react";
-import { useAuthContext } from "../cotext/authContext";
+import { useAuthContext } from "../cotext/AuthContext";
 
 function handleInputErrors ({fullName,userName,rollNumber,phoneNumber,password,confirmPassword}){
     if(!fullName||!userName||!rollNumber||!phoneNumber||!password||!confirmPassword){
