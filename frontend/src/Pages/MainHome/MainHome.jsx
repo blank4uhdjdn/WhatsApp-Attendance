@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./MainHome.css";
 import logo from "../Images/profile.png";
 import logo1 from "../Images/logo.jpg";
-import { useAuthContext } from "../../cotext/authContext";
+import { useAuthContext } from "../../cotext/AuthContext";
 import useMarkAttendance from "../../hooks/useMarkAttendance";
 import MyCarousel from "../testbootrap/MyCarousel";
 import GetAtt from "../Table/GetAtt";
