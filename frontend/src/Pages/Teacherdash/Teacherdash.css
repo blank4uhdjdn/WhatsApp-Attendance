@@ -1,0 +1,430 @@
+/* .out-otp{
+    border-radius: 8px;
+    height: 30px;
+    width: 10%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+.otp-gen-btn{
+    border-radius: 9px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+.otp-gen-btn:hover{
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 15px;
+    color: #262829;
+    transition: all .5s;
+}
+#rightcondiv2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    
+    
+    width: 103%;
+    height: auto;
+    
+}
+.events-btn{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+.events-btn:hover{
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 10px;
+    color: #262829;
+    transition: all .5s;
+}
+#events-card{
+    display: flex;
+    
+    flex-direction: column;
+    background-color:#fff; 
+    height: 300px;
+    width: 85%;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    
+    font-family: Rubik, sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+#event-cont-cards{
+    display: flex;
+    
+    flex-direction: column;
+    background-color:#fff; 
+    height: auto;
+    width: 300px;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    
+    font-family: Rubik, sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+#event-cont-cards:hover{
+    transform:scale(1.01);
+}
+.markcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff;
+    
+    height: auto;
+    width: 300px;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    
+    font-family:sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.markcard:hover{
+    transform:scale(1.01);
+}
+#event-name
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    
+    border: none
+} 
+#event-date
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#event-location
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#event-description
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#event-butn{
+    border-radius: 17px;
+    width: 65%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+#event-butn:hover{
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 15px;
+    color: #262829;
+    transition: all .5s;
+}
+#events-inner-most{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+#description{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 250px;
+}
+p#p{
+    font-size: 1.1rem;
+}
+.phonno{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 150px;
+}
+#phonno
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+} */
+
+
+
+/* OTP input field styling */
+.out-otp {
+    border-radius: 8px;
+    height: 30px;
+    width: 10%;
+    font-size: 1rem;
+    background: #f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+
+/* OTP generation button styling */
+.otp-gen-btn {
+    border-radius: 9px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+
+.otp-gen-btn:hover {
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 15px;
+    color: #262829;
+    transition: all 0.5s;
+}
+
+/* Container for event cards */
+#rightcondiv2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between;
+    margin-top: 75px;
+    width: 100%; /* Adjusted to fit the container width */
+    height: auto;
+    gap: 20px; /* Optional gap between cards */
+}
+
+/* Event button styling */
+.events-btn {
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+
+.events-btn:hover {
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 10px;
+    color: #262829;
+    transition: all 0.5s;
+}
+
+/* Event card container styling */
+#events-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 300px;
+    width: 85%;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    font-family: Rubik, sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* Event container card */
+#event-cont-cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    width: 30%; /* Each card will take 30% width (3 cards per row) */
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    font-family: Rubik, sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 20px; /* Added padding inside the card */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+#event-cont-cards:hover {
+    transform: scale(1.01);
+}
+
+/* Card mark styling */
+.markcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    width: 300px;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.markcard:hover {
+    transform: scale(1.01);
+}
+
+/* Event name input styling */
+#event-name {
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* Event date input styling */
+#event-date {
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background: #f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+
+/* Event location input styling */
+#event-location {
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background: #f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+
+/* Event description input styling */
+#event-description {
+    border-radius: 8px;
+    height: 30px;
+    width: 65%;
+    font-size: 1rem;
+    background: #f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+
+/* Event button styling */
+#event-butn {
+    border-radius: 17px;
+    width: 65%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+
+#event-butn:hover {
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 15px;
+    color: #262829;
+    transition: all 0.5s;
+}
+
+/* Inner event layout */
+#events-inner-most {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Event description text styling */
+#description {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 250px;
+}
+
+/* Paragraph styling */
+p#p {
+    font-size: 1.1rem;
+}
+
+/* Phone number styling */
+.phonno {
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 150px;
+}
+
+/* Phone number input styling */
+#phonno {
+    border-radius: 8px;
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    background: #f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+.carousel-item img {
+    width: 201px;
+    height: 286px;
+    object-fit: cover; /* ensures the image covers the box without distortion */
+  }
+  .teacher-leftdiv{
+    margin-top: 30px;
+    margin-left: 78px;
+    display: block;
+    width: 20%;
+}
+.teacher-rightdiv{
+    margin-top: 50px;
+    /* background-color:#fff;  */
+    /* height: auto; */
+    width: 90%;
+    margin-left: 80px;
+    margin-right: 75px;
+    /* box-shadow: 0px 3px 3px 3px rgb(238, 238, 238); */
+    border-radius: 17px;
+}
+.teacher-rightcondiv2{
+    background-color: #fff;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    padding: 30px;
+    margin-top: 75px;
+    border-radius: 17px;
+    width: 99.8%;
+    height: 258px;
+}
+
+  

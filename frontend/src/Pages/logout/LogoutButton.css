@@ -1,0 +1,13 @@
+/* LogoutButton.css */
+
+.logout-button {
+    margin-top: auto;
+  }
+  
+  .logout-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  

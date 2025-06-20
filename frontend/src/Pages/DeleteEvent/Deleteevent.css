@@ -1,0 +1,32 @@
+.outer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.del-ev{
+    border-radius: 8px;
+    height: 30px;
+    width: 80%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+.del-ev-btn
+{
+    border-radius: 9px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+.del-ev-btn:hover
+{
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 15px;
+    color: #262829;
+    transition: all .5s;
+}

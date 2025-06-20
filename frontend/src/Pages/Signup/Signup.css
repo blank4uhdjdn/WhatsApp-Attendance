@@ -1,0 +1,113 @@
+#signup-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff; 
+    height: auto;
+    width: 20%;
+    border-radius: 17px;
+    box-shadow: 0px 3px 3px 3px rgb(238, 238, 238);
+    font-family:sans-serif;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer; 
+
+}
+#signup-card:hover{
+    transform:scale(1.1);
+
+}
+#inner-most{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#fname{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 100px;
+}
+#fnm
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 110%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#phn{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 70px;
+}
+#phnnum
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 110%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#rlno{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 90px;
+}
+#rolno
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 110%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#pswd{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 105px;
+}
+#pass
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 110%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#cpswd{
+    color: #262829;
+    font-size: 1rem;
+    margin-right: 48px;
+}
+#cpass
+{
+    border-radius: 8px;
+    height: 30px;
+    width: 110%;
+    font-size: 1rem;
+    background:#f6f6f6;
+    border: 2px solid #e9e9e9;
+}
+#sbutn{
+    border-radius: 10px;
+    width: 110%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #fbab23;
+}
+#sbutn:hover{
+    background: #fff;
+    border: 1px solid #fbab23;
+    border-radius: 10px;
+    color: #262829;
+    transition: all .5s;
+}

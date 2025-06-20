@@ -1,0 +1,20 @@
+#root
+{
+    background: none;
+}
+table{
+    margin-left: 15px;
+    margin-bottom: 290px;
+    width: 1470px;
+    text-align: left;
+}
+table,th,tr,td{
+    /* border-radius: 17px; */
+    /* opacity: 0.8; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+tbody,tr,td{
+    opacity: 0.9;
+}
