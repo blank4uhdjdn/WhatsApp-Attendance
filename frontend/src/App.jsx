@@ -49,7 +49,7 @@ import Deleteevent from './Pages/DeleteEvent/Deleteevent';
 import GetAtt from './Pages/Table/GetAtt';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import { useAuthContext } from './cotext/authContext';
+import { useAuthContext } from './cotext/AuthContext';
 import About from './Pages/About/About';
 
 
